@@ -30,7 +30,6 @@ const Shop = () => {
         <div className='shop-container'>
 
             {/* .products-container+.card-container */}
-
             <div className="products-container">
                 {
                     products.map(product => <Product 
